@@ -50,3 +50,6 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
         )
+        Image(
+            painter = painterResource(id = R.drawable.iiq),
+            contentDescription = null,
