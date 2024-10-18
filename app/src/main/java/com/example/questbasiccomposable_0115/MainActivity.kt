@@ -82,5 +82,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
 
         Text(
             text = "20220140115"    ,
-            style = TextStyle
+            style = TextStyle(
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Medium
+            )
+        )
 
