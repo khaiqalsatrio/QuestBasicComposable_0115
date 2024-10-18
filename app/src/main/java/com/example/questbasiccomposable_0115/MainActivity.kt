@@ -43,3 +43,6 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
         )
+        Text(
+            text = "King Indo",
+            style = TextStyle
