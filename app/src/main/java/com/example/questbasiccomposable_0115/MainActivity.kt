@@ -45,4 +45,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         )
         Text(
             text = "King Indo",
-            style = TextStyle
+            style = TextStyle(
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold
+            )
+        )
