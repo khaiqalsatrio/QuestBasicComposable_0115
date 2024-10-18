@@ -87,4 +87,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Medium
             )
         )
+        Image(
+            painter = painterResource(id = R.drawable.kingindo),
+            contentDescription = null,
+        )
 
