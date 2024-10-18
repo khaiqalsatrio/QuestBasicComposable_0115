@@ -92,3 +92,15 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             contentDescription = null,
         )
 
+    }
+}
+
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    PER2Theme {
+        BasicLayout()
+    }
+}
+
