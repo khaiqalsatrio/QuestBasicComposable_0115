@@ -55,3 +55,12 @@ fun BasicLayout(modifier: Modifier = Modifier) {
 
         )
 
+        // New Text added below the Image
+        Text(
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Medium
+            )
+        )
+
