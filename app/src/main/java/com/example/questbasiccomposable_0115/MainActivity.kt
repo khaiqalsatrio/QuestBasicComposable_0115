@@ -50,6 +50,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
         )
-        Image(
-            painter = painterResource(id = R.drawable.iiq),
-            contentDescription = null,
+        // Lebar 200dp dan tinggi 100dp
+        modifier = Modifier.size(width = 200.dp, height = 100.dp)
+
+        )
+
