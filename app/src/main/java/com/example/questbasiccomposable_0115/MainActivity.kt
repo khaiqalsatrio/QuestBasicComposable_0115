@@ -35,4 +35,11 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-    )
+    ){
+        Text(
+            text = "SAYA LOGIN",
+            style = TextStyle(
+                fontSize = 70.sp,
+                fontWeight = FontWeight.Bold
+            )
+        )
