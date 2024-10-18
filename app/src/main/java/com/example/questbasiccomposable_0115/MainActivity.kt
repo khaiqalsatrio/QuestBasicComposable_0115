@@ -73,5 +73,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         )
         Text(
             text = "Khaiqal Satrio Alfirdaus",
-            style = TextStyle
+            style = TextStyle(
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.Red
+            )
+        )
 
